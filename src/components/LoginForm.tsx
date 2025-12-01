@@ -38,7 +38,7 @@ const LoginForm = () => {
 			data.email === register.email &&
 			data.password === register.password
 		) {
-			toast.success(`Login successfull, ${register.name}🤗`);
+			toast.success(`Welcome, ${register.name}🤗`);
 
 			loginForm.reset();
 		} else {
